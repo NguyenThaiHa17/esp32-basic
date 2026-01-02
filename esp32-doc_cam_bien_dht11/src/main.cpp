@@ -76,11 +76,7 @@ void loop() {
   // --- Hiển thị lên màn hình OLED ---
   display.clearDisplay(); // Xóa nội dung cũ
 
-  // Hiển thị Tiêu đề
-  display.setTextSize(1);
-  display.setCursor(0, 0);
-  display.println(F("DHT11 Monitor"));
-  display.drawLine(0, 10, 128, 10, SSD1306_WHITE); // Vẽ đường kẻ ngang
+  
 
   // Hiển thị Nhiệt độ (chữ to hơn)
   display.setCursor(0, 15);
